@@ -1,5 +1,5 @@
 project_ray_tile(
-  ARCH artix7_100t
+  ARCH kintex7_325t
   TILE GTPE2_COMMON
   SITE_AS_TILE
   SITE_TYPES GTPE2_COMMON/GTPE2_COMMON

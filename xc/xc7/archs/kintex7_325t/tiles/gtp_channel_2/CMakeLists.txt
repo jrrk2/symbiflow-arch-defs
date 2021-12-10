@@ -1,5 +1,5 @@
 project_ray_tile_capacity(
-  ARCH artix7_100t
+  ARCH kintex7_325t
   TILE GTP_CHANNEL_2
   SITE_TYPES GTPE2_CHANNEL/GTPE2_CHANNEL IPAD/IPAD OPAD/OPAD
  )

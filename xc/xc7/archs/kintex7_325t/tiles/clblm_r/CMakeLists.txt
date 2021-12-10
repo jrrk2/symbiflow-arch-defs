@@ -1,5 +1,5 @@
 project_ray_tile_capacity(
-  ARCH artix7_100t
+  ARCH kintex7_325t
   TILE CLBLM_R
   SITE_TYPES SLICEM/SLICEL SLICEL
   )

@@ -1,5 +1,5 @@
 project_ray_tile(
-  ARCH artix7_100t
+  ARCH kintex7_325t
   TILE SLICEM
   SITE_AS_TILE
   SITE_TYPES SLICEM/SLICEM

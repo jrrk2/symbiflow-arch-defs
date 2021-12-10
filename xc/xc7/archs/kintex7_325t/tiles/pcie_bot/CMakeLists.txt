@@ -1,5 +1,5 @@
 project_ray_tile_capacity(
-  ARCH artix7_100t
+  ARCH kintex7_325t
   TILE PCIE_BOT
   SITE_TYPES PCIE_2_1
   UNUSED_WIRES

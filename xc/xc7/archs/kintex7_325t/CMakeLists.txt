@@ -6,7 +6,7 @@ project_ray_prepare_database(
   PARTS xc7k325tffg900-2
 )
 
-set(ARCH artix7_100t)
+set(ARCH kintex7_325t)
 
 set(YOSYS_SYNTH_SCRIPT ${symbiflow-arch-defs_SOURCE_DIR}/xc/xc7/yosys/synth.tcl)
 set(YOSYS_CONV_SCRIPT  ${symbiflow-arch-defs_SOURCE_DIR}/xc/xc7/yosys/conv.tcl)
