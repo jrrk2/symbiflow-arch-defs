@@ -179,3 +179,10 @@ add_xc_board(
   PART xc7z020clg400-1
   PROG_CMD "${OPENOCD} -f ${OPENOCD_DATADIR}/scripts/interface/ftdi/digilent-hs1.cfg -f ${OPENOCD_DATADIR}/scripts/target/zynq_7000.cfg -c \\\"ftdi_tdo_sample_edge falling $<SEMICOLON> adapter_khz 1000000 $<SEMICOLON> init $<SEMICOLON> pld load 0 \${OUT_BIN} $<SEMICOLON> exit\\\""
 )
+
+add_xc_board(
+  BOARD genesys-2
+  DEVICE xc7k325t
+  PACKAGE test
+  PART xc7k325tffg900-2
+)
