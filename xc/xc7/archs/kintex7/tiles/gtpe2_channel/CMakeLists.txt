@@ -1,5 +1,5 @@
 project_ray_tile(
-  ARCH artix7
+  ARCH kintex7
   TILE GTPE2_CHANNEL
   SITE_AS_TILE
   SITE_TYPES GTPE2_CHANNEL/GTPE2_CHANNEL

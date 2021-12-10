@@ -1,5 +1,5 @@
 project_ray_tile(
-  ARCH artix7
+  ARCH kintex7
   TILE IBUFDS_GTE2
   SITE_AS_TILE
   SITE_TYPES IBUFDS_GTE2/IBUFDS_GTE2

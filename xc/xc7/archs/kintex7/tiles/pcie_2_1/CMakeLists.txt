@@ -1,5 +1,5 @@
 project_ray_tile(
-  ARCH artix7
+  ARCH kintex7
   TILE PCIE_2_1
   SITE_TYPES PCIE_2_1/PCIE_2_1
   SITE_AS_TILE

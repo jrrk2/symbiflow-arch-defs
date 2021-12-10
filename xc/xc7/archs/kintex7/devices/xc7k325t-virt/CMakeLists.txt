@@ -1,5 +1,5 @@
 add_xc_device_define_type(
-  ARCH artix7
+  ARCH kintex7
   DEVICE xc7a50t
   TILE_TYPES
     CLBLL_L

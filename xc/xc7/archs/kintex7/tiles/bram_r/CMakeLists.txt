@@ -1,5 +1,5 @@
 project_ray_tile(
-  ARCH artix7
+  ARCH kintex7
   TILE BRAM_R
   SITE_TYPES BRAM_R/BRAM_R
   FUSED_SITES

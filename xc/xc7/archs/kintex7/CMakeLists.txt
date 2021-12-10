@@ -1,12 +1,12 @@
 project_ray_prepare_database(
-  PRJRAY_ARCH artix7
+  PRJRAY_ARCH kintex7
   PRJRAY_DIR ${PRJXRAY_DIR}
   PRJRAY_DB_DIR ${PRJXRAY_DB_DIR}
   PROTOTYPE_PART xc7k325tffg900-2
   PARTS xc7k325tffg900-2
 )
 
-set(ARCH artix7)
+set(ARCH kintex7)
 
 set(YOSYS_SYNTH_SCRIPT ${symbiflow-arch-defs_SOURCE_DIR}/xc/xc7/yosys/synth.tcl)
 set(YOSYS_CONV_SCRIPT  ${symbiflow-arch-defs_SOURCE_DIR}/xc/xc7/yosys/conv.tcl)

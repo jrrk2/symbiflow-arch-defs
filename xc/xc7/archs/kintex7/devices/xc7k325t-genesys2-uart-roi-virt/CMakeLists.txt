@@ -1,7 +1,7 @@
 add_xc_device_define_type(
-  ARCH artix7
+  ARCH kintex7
   DEVICE xc7k325t-genesys2-uart
-  ROI_DIR ${PRJXRAY_DB_DIR}/artix7/harness/arty-a7/uart
+  ROI_DIR ${PRJXRAY_DB_DIR}/kintex7/harness/arty-a7/uart
   TILE_TYPES
     CLBLL_L
     CLBLL_R

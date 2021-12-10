@@ -1,7 +1,7 @@
 add_xc_device_define_type(
-  ARCH artix7
+  ARCH kintex7
   DEVICE xc7k325t-genesys2-switch-processing-pr2
-  ROI_DIR ${symbiflow-arch-defs_SOURCE_DIR}/xc/xc7/archs/artix7/devices/xc7k325t-genesys2-switch-processing-pr2-roi-virt
+  ROI_DIR ${symbiflow-arch-defs_SOURCE_DIR}/xc/xc7/archs/kintex7/devices/xc7k325t-genesys2-switch-processing-pr2-roi-virt
   TILE_TYPES
     CLBLL_L
     CLBLL_R

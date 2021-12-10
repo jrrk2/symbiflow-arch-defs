@@ -1,5 +1,5 @@
 project_ray_tile(
-  ARCH artix7
+  ARCH kintex7
   TILE MMCME2_ADV
   SITE_AS_TILE
   SITE_TYPES MMCME2_ADV/MMCME2_ADV
